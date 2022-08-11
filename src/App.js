@@ -6,7 +6,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<AuthPage />} />
+        <Route
+          basename={process.env.PUBLIC_URL}
+          path="/"
+          element={<AuthPage />}
+        />
         <Route path="/todo" element={<TodoPage />} />
       </Routes>
     </>
