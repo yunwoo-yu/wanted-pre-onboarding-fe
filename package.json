@@ -1,5 +1,4 @@
 {
-  "homepage": "https://yunwoo-yu.github.io/wanted-pre-onboarding-fe/",
   "name": "wanted-pre-onboard-fe",
   "version": "0.1.0",
   "private": true,
@@ -43,5 +42,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://yunwoo-yu.github.io/wanted-pre-onboarding-fe/"
 }
